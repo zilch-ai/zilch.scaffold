@@ -1,2 +1,4 @@
 # zilch.scaffold
-A project template that quickly sets up the foundation for new projects, including configurations, workflows, and structures, so developers can focus on core development.
+
+`Zilch.scaffold` is a project template designed to quickly initialize and structure new projects. It provides the essential foundation, including GitHub configurations, workflows, and project skeletons, enabling developers to start their work with a solid base. 
+

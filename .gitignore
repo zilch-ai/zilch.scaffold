@@ -1,0 +1,15 @@
+# Auto-created Thumbnails
+Thumbs.db
+
+# Editor Backups & Temporary Files
+*~
+*.bak
+*.swp
+
+# IDE-generated Files
+*.suo
+*.user
+*.sln.cache
+.vs
+.vscode
+.idea
