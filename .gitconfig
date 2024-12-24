@@ -2,7 +2,7 @@
 
     # Reinitialize a local dev branch with the latest commit (in remote main branch)
     # Usage: git ready <branch-name>
-    ready = '!f() { git checkout main && git pull && git branch -d "$1" && git switch -c "$1"; }; f'
+    ready = '!f() { branch="$1"; git checkout main && git pull && (git branch --list "$branch" > /dev/null && git branch -d "$branch"); git switch -c "$branch"; }; f'
 
     # Publish a new remote branch with version tag and optional release note
     # USAGE: git publish <semver> [<release-note>]

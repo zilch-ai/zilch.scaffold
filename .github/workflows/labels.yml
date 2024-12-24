@@ -47,7 +47,3 @@ jobs:
                 (github.event_name == 'workflow_dispatch' && inputs.dryrun == 'true')
             }}
           skip-delete: true
-      - uses: pbronneberg/milestone-sync-action@v1
-        with:
-          milestones-file: .github/milestones.yml
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
